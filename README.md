@@ -1,6 +1,6 @@
 # Modelo Navbar
 
-Um parágrafo da descrição do projeto vai aqui
+Este é um projeto de menu que eu aprimorei, a inspiração foi essa <a>https://www.youtube.com/watch?v=bHRXRYTppHM</a>
 
 ## 🚀 Começando
 
