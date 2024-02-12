@@ -27,8 +27,8 @@ Esse projeto foi construído com HTML5, CSS3 e JS.
 
 ## ✒️ Autores
 
+* **Nickolas Joe** - *Inspiração* [Tiger Codes](https://github.com/tigercodes-io)
 * **Paulo Adson** - *Aprimoramento* - [Paulo Adson](https://github.com/PauloAdson)
-* **Tiger Codes** - *Inspiração* [Tiger Codes](https://github.com/tigercodes-io)
 
 
 ## Me siga em minhas redes sociais!
