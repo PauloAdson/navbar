@@ -8,8 +8,9 @@ Caso queira fazer uma cópia desse conteúdo, siga as instruções abaixo.
 <ol>
   <li>Abra o seu Git Bash</li>
   <li>Altere o diretório de trablaho atual para o local em que deseja ter o diretório clonado</li>
+  <li>Utilize o código abaixo</li>
   ```
-  <li>git clone https://github.com/PauloAdson/navbar.git</li>
+  git clone https://github.com/PauloAdson/navbar.git
   ```
   <li>Pressione ENTER e verifique se está tudo funcionando normalmente!</li>
 </ol>
