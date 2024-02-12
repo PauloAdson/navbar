@@ -30,14 +30,25 @@ class MobileNavbar {
         
     } // Termina aqui
 
+    // handleDocumentClick(event) {
+    //     // Verifica se o clique foi fora do menu
+    //     if (!this.mobileMenu.contains(event.target)) {
+    //         this.navList.classList.remove(this.activeClass);
+    //         this.mobileMenu.classList.remove(this.activeClass);
+    //         this.animateLinks();
+    //     }
+    // } 
+
+
     handleDocumentClick(event) {
-        // Verifica se o clique foi fora do menu
-        if (!this.mobileMenu.contains(event.target)) {
+        // Verifica se o menu está ativo antes de lidar com o clique fora do menu
+        if (this.mobileMenu.classList.contains(this.activeClass) && !this.mobileMenu.contains(event.target)) {
             this.navList.classList.remove(this.activeClass);
             this.mobileMenu.classList.remove(this.activeClass);
             this.animateLinks();
         }
-    } //
+    }
+    
 
 
     animateLinks() {
@@ -47,19 +58,6 @@ class MobileNavbar {
             : (link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.3}s`);
         });
     }
-
-    ////Código antes dele fechar através dos links
-
-    // handleClick() {
-    //     this.navList.classList.toggle(this.activeClass);
-    //     this.mobileMenu.classList.toggle(this.activeClass);
-    //     this.animateLinks();
-    // }
-
-    // addClickEvent() {
-    //     this.mobileMenu.addEventListener("click", this.handleClick);
-    // }
-
 
     addEventListeners() {
         this.mobileMenu.addEventListener("click", this.handleToggle);
