@@ -5,19 +5,18 @@ Este é um projeto de menu que eu aprimorei, a inspiração foi essa https://www
 ## 🚀 Começando
 
 Caso queira fazer uma cópia desse conteúdo, siga as instruções abaixo.
-<ol>
+<ul>
   <li>Abra o seu Git Bash</li>
   <li>Altere o diretório de trablaho atual para o local em que deseja ter o diretório clonado</li>
   <li>Utilize o código abaixo</li>
-  ```
-  git clone https://github.com/PauloAdson/navbar.git
-  ```
+</ul>
+
+```
+git clone https://github.com/PauloAdson/navbar.git
+```
+<ul>
   <li>Pressione ENTER e verifique se está tudo funcionando normalmente!</li>
-</ol>
-
-```
-
-```
+</ul>
 
 Consulte **[Implantação](#-implanta%C3%A7%C3%A3o)** para saber como implantar o projeto.
 
