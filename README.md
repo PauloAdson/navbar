@@ -1,6 +1,6 @@
 # Modelo Navbar
 
-Este é um projeto de menu que eu aprimorei, a inspiração foi essa <a>https://www.youtube.com/watch?v=bHRXRYTppHM</a>
+Este é um projeto de menu que eu aprimorei, a inspiração foi essa <a target="_blank">https://www.youtube.com/watch?v=bHRXRYTppHM</a>
 
 ## 🚀 Começando
 
