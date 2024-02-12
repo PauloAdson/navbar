@@ -30,16 +30,6 @@ class MobileNavbar {
         
     } // Termina aqui
 
-    // handleDocumentClick(event) {
-    //     // Verifica se o clique foi fora do menu
-    //     if (!this.mobileMenu.contains(event.target)) {
-    //         this.navList.classList.remove(this.activeClass);
-    //         this.mobileMenu.classList.remove(this.activeClass);
-    //         this.animateLinks();
-    //     }
-    // } 
-
-
     handleDocumentClick(event) {
         // Verifica se o menu está ativo antes de lidar com o clique fora do menu
         if (this.mobileMenu.classList.contains(this.activeClass) && !this.mobileMenu.contains(event.target)) {
