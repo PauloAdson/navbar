@@ -12,13 +12,10 @@ header {
     height: 4rem;
 }
 
-.logo-name {
-    color: #000000;
-    font-size: 1rem;
-}
+
 
 .menu-links {
-    color: #000000;
+    color: var(--font-color);
     text-decoration: none;
     transition: 0.3s;
 }
@@ -57,7 +54,7 @@ header nav {
     height: 2px;
     margin: 8px;
     transition: 0.3s;
-    background-color: #000000;
+    background-color: var(--secundary-bg);
 }
 
 /* Para Smartphones */
@@ -106,17 +103,12 @@ header nav {
         height: 3rem;
     }
 
-    .logo-name {
-        color: #000000;
-        font-size: 0.8rem;
-    }
-
     .nav-list {
         position: absolute;
         right: 0;
         height: 90vh;
         width: 50vw;
-        background: #D9D9D9;
+        background: var(--primary-bg);
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
